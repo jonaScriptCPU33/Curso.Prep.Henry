@@ -1,0 +1,18 @@
+Objetos:
+Si en los arrays podiamos ingresas datos en una cajita, en los objetos tenemos una caja mas grande, donde almacenar todo tipo de información que necesitemos. Pero estos los debemos identificar por que llevan llaves {}.
+Los objetos tiene un concepto diferencial que es clave valor, en la clave un idenficador o nombre, y el valor, es el valor que le damos a esa clave. Ejemplo el objeto se define así: const usuarios = {nombre: 'juan'} La es nombre, y el valor es juan. 
+A los objetos los podemos acceder por medio de un punto. ejemplo: Tenemos const usuarios = {nombre: 'juan'} si quieremos acceder a los atributos que tiene el objeto usuarios, debemos accederlo así: usuarios.nombre. De esta forma  estamos tomando el objeto usuario, y estamos accediendo al parametro que tiene dentro que es el nombre de juan. 
+En los objetos podemos usar metodos, añadir propiedades, eliminar propiedades, asignar valores, acceder a los valores, realizar funciones que contengan bucles y acceder a los objetos con la palabra clave this. Que mas adelante explicaré.
+
+
+Métodos:
+Los métodos nos permiten realizar acciones y estas acciones también las podemos insertar en un objeto, para que una vez invocado este método inmerso en los argumentos del objeto, podamos invocarlo y obtener su resultado. 
+Los métodos se invocan como cuando accedermos a un argumento de un objeto. (nombreObjeto.método())
+
+Bucles for…in:
+No permite recorrer el objeto poniendo un valor claver y el nombre del objeto. Por ejemplo, tenemos un objeto que tiene lo siguiente: var jueventus = {arquero:buffon, defensa: bonucci, lateral: alex sandro} este es nuestro objeto, al momento de llamar a nuestro objetos podemos hacerlos de la siguiente forma 
+for(let i in juventus){console.log(i); console.log(juventus[i])}. Con esto estamos haciando que la clave i tomer los valores en cada iteración de nuestro objeto juventus. Entonces por acada iteración nos va a tomar cada uno de los elementos que tengamos en nuestro objeto. Para nuestro caso el nombre de el arquero, defensa y lataral que tenemos en el objeto. 
+
+Palabra clave this
+La palabra clave siempre va hacer referencia al objeto y al scope de el objeto dentro de que cada invocación. Es decir. si tenemos un objeto llamado juventus y queremos acceder algun elemento de este objeto, debemos anteponer la palabra clave this, para poder integrarla a nuestro segmento de codigo que vayamos a usar con ese elemento de el objeto. ejemplo this.arquero. Si por ejemplo, tengo una clase y creo dentro de esa clase un objeto, dentro de ese objeto tengo elementos, si quiero hacer uso de estos elementos en un método dentro de la clase, puedo invocar estos elementos, por medio de la palara clave this. 
+
