@@ -1,0 +1,19 @@
+Variable: 
+Una variable es un valor para almacenar información que nos permite dar una identidad a cualquier dato que queramos mostrar ó que queramos interactué con otras variables. Ese dato de esta variable, se guarda en memoria, Así que cuando la queramos usar, esta ira a la memoria con el identificador que la tomas, y el valor que le hayamos dados, para que pueda usarse de determinada manera en nuestro código. 
+
+String: 
+Los Strings son cadenas de caracteres que podemos usar para darle nombre a las variables antes mencionadas, o para asignar un valor a la variable en cadena de texto. Por ejemplo: (var nombre = “Josep”;) las string como en este caso las debemos usar con comillas simples o comillas dobles. Para que esta puedan ser entendidas por nuestro software. Si usamos el ejemplo pasado y hacemos  lo siguiente (var nombre = josep;)  el sistema no tiene forma de  poder traducir esto a nuestro lenguaje. Deben llevar comillas simples o comillas dobles.
+
+Funciones: 
+Las funciones nos permiten crear algoritmos que nos facultan para realizar diferentes soluciones a problemas que queramos solucionar. Las funciones nos ayudan a entender el código. 
+Las funciones tienen varios componentes, tiene parámetros, el código de la función y el resultado que arroja el código. 
+A cada función le podemos dar un nombre dependiendo de la situación que vayamos a resolver. 
+Los parámetros son variables que utilizadas para recibir valores de entrada en un método que vayamos a aplicar.
+
+Declaraciones IF:
+Las declaraciones if, nos permiten darle a al programa un modo de ejecución solo si cumple una condición que es verdadera. Ejemplo: Si carro es rojo, dejar pasar, si carro tiene un color diferente rojo, no pasa.
+Con estas declaraciones por demos construir soluciones a problemas de este tipo. 
+
+Valores booleanos (True, false):
+Este tipo de variables, solos nos permiten tomar dos posibles valores: True para lo que sea verdadero, y false para lo que sea falso. 
+Un valor que se pase como primer parámetro se puede convertir en booleano, si es necesario. Si se omite o es 0 o -0, null, false, NaN, undefined, ó una cadena de texto o string vacia (“ ”) ó la cadena “false”.
