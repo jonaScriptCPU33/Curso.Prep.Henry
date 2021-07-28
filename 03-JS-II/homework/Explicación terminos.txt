@@ -1,0 +1,15 @@
+For:
+For se usa cuando queremos repetir una instrucción una cantidad de veces. En el for encontramos 3 segmentos que nos permiten obtener una respuesta eficaz si el problema amerita decisión y el recorrido de un valor en repetidas ocasiones. 
+Un ejemplo sería que si queremos que un carro circule por una pista por cierta cantidad de vueltas y después de cumplidas salir de la pista. 
+
+Los operadores lógicos;
+Los operadores lógicos, nos sirven para descartar alguna sentencias, como decir si una expresión es verdadera, si dos de estas expresiones son verdaderas, o si ninguna de ellas es verdadera.
+
+&& ó AND;
+Este operador nos genera una respuesta verdadera ó true, si ambas expresiones son verdaderas, pero si una de estas expresiones es falsa, el operador nos devolverá false, o falso. 
+
+|| ó OR:
+Este operador evaluá las expresiones y si una de las dos expresiones es verdadera, nos devolverá verdadero, si ambas son verdaderas devolverá veredero, si las dos expresiones son falsas, devolverá falsa. Así tengas una falsa y otra verdadera, nos devolverá verdadero. 
+
+! ó NOT:
+Este operador nos informa el valor contrario al que pertenezca una expresión, es decir que si el valor es verdadero y le sumamos este valor nos entregará falso. O al contrario si es falso y le sumamos este valor, pasara a ser verdadero. Este operado lo usamos normalmente con el operador de comparación !==, pero se puede usar con cualquier expresión, para dar su valor opuesto. !false, !true, !2, etc
