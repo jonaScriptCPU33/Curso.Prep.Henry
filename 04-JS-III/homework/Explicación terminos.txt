@@ -1,0 +1,8 @@
+Arrays:
+Los arrays son como cajas, donde guardamos gran cantidad de diferentes tipos de caracteres, entre strings, números, valores booleanos
+funciones, guardar otros arrays que tengas mas caracteres. Los arrays nos sirven para guardar una mayor cantidad de datos que una variable simple.
+Los arrays vienen de la palabra matriz, y una matriz es un conjunto ordenado de elementos ordenados en fila. 
+
+Cuando accedemos a un array debemos tener presente que estos tiene un orden numérico, inicializado en 0, lo que quiere decir es que si ingresamos un dato, su primer ubicación no sera el valor 1 si no 0, en las matrices según su estructura el orden de ingreso de un dato es comienza desde cero. Entonces si queremos a acceder a el valor a el ultimo valor si tuviéramos un array con 5 datos insertados, el ultimo valor no sería 5 si no 4.
+
+A los arrays les podemos asignar valores adicionales, los podemos concatenar, los podemos sumar, multiplicar, restar, dividir y las demás operaciones matemáticas. 
