@@ -1,0 +1,7 @@
+Prototype
+Nos permite crear métodos del modelo de la clase ó objeto y adaptarle una acción con referencia al modelo que tenemos de nuestra clase o objeto principal.
+es decir tenemos la clase Carro y esta clase tiene un constructor que conforma las caracteristicas de esa clase o objeto. y queremos hacer un método que nos permita acceder a un segmento en particular del carro y usarla para una acción en particular, sea para conocer la caracteristica de sus parametros, o para vincularla a otro metodo dentro de nuestra clase padre. 
+
+Constructor (de Clases)
+Los constructurores son aquellos que nos permite modelar o abstraer la información de un objeto. Lo cual me permite crear multiples objetos a partir de el objeto principal. Entonces el constructor es esa función que nos permite tomar la información del objeto principal, ó padre, y obtener de este objeto todos sus atributos para crear un nuevo objeto (hijo) para modelar otro tipo de función que requiera los parametros de el objeto padre. 
+
