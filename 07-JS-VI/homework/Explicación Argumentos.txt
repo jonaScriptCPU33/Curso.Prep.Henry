@@ -1,0 +1,4 @@
+Funciones Callback:
+Estas funciones nos permiten invocar a una función desde un parametros. Lo que quiere decir que si, creamos una función que cumpla algún tipo de sentencia ú operación, nos permitira acceder a esa función solo con el nombre de la función. Me explico mejor:
+
+Tengo una función que realiza una suma de esta manera. functión suma(a, b , cb){ return cb(num1 + num2)} Lo que vemos acá es que tenemos una función suma que realiza una operación matemática, en la cual tenemos 3 parametros, pero al ultimo parametro le vamos a asignar una caracteristica que es la de convertirse en función. Entonces nuestra 3r parametro se convierte en función. Y cuando llamemos ese parametro en otra función, este paremetros nos devolvera la acción de realizar una operación matemática como la de suma. 
